@@ -17,7 +17,7 @@ body{
 
 
 
-/*Barra lateral*/
+/*Barra lateral (Aside)*/
 .aside{
     min-height: 100vh;
     width: 80px;
@@ -306,8 +306,6 @@ header{
 }
 
 
-
-
 @media screen and (min-width:1400px) {
     .cards{
         grid-template-columns: repeat(5,1fr);
@@ -353,8 +351,6 @@ header{
     }
 
 }
-
-
 @media screen and (max-width:713px) {
     .cards{
         grid-template-columns: 300px;
