@@ -331,7 +331,7 @@ header{
             display: none;
         }
         .cards{
-            margin: auto;
+            margin: 15px auto;
         }
 }
 
@@ -402,8 +402,6 @@ header{
         grid-template-columns: 1fr;
         max-width: 300px;
         place-content: center;
-        gap: 50px;
-        margin: auto;
-        
+        gap: 50px;  
     }
 }
