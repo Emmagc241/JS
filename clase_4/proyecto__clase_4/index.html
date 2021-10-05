@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="shortcut icon" href="img/logo.svg" type="image/x-icon">
+    <title>YouTube</title>
+</head>
+
+
+
+<body>
+    <header>
+        <div class="header__container">
+            <div class="header__logo">
+                <a href="" class="menu"><box-icon name='menu' color='#ffffff'></box-icon></a>
+                <a href="" class="logo"><img src="img/logo.svg" alt=""></a>
+            </div>
+            <div class="header__search">
+                <div class="search">
+                    <input class="search__bar"type="text" placeholder="Buscar">
+                    <input  class="icon__search" type="submit" value="">
+                </div>
+                <input class="icon__micro" type="button" value="">
+                
+            </div>
+            <div class="header__access">
+                <a href=""><img class="menu__access"src="img/icon__apps.png" alt=""></a>
+                <a href=""><img class="menu__access" src="img/icon__dots.png" alt=""></a>
+                <div class="user__access">
+                    <a href="" class="link__user">
+                        <img src="img/icon__user.png" class="user__icon"alt="">
+                        <p>acceder</p>
+                    </a>
+                </div>
+    
+            </div>
+        </div>
+    </header>
+
+    <main class="main">
+        <aside class="aside">
+            <div class="aside__container">
+                <script src="js/templateAside.js"></script>
+            </div>      
+        </aside>
+    
+    <section class="videos">
+        <section class="filters">
+            <div class="filters__container">
+                <script src="js/templateFilters.js"></script>
+            </div>
+            
+        </section>
+        <section class="cards">
+            <script src="js/templateCards.js"></script>
+        </section>
+    </section>
+       
+    </main>
+   
+
+    <script src="https://unpkg.com/boxicons@2.0.9/dist/boxicons.js"></script>
+</body>
+</html>
