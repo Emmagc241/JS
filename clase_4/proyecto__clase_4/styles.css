@@ -16,7 +16,23 @@ body{
 }
 
 
+/*aside JS*/
 
+.aside__js{
+    width: 245px;
+    min-height: 100vh;
+    background-color: #363636;
+    position: absolute;
+    z-index: 100;
+    transition: .3s;
+    /* display: none; */
+}
+
+.move{
+    transform:translateX(-245px);
+    transition: .3s;
+    
+}
 /*Barra lateral (Aside)*/
 .aside{
     min-height: 100vh;
@@ -90,6 +106,7 @@ header{
     display: flex;
     justify-content: center;
     align-items: center;
+    cursor: pointer;
 }
 
 .logo{
