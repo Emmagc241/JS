@@ -64,6 +64,10 @@ input {
   width: 80%;
 }
 
+.tarea__text{
+  font-size:25;
+}
+
 .btn {
   display: flex;
   justify-content: center;
