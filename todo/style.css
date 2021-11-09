@@ -1,0 +1,132 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;700&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins";
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #eee;
+}
+
+.main {
+  width: 90%;
+  max-width: 550px;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 50px;
+  padding: 10px;
+  background-color: white;
+  border-radius: 8px;
+}
+.title {
+  text-align: center;
+  display: block;
+  margin: auto;
+  font-size: 30px;
+  color: white;
+  background-color: #a1a1a1;
+  padding: 5px 10px;
+  border-radius: 8px;
+  /*   text-shadow: 0px 0px 10px white; */
+  max-width: max-content;
+  margin-bottom: 10px;
+}
+
+.to_dos {
+  width: 100%;
+}
+
+.add {
+  width: 100%;
+  padding: 10px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 20px;
+}
+
+input {
+  border: none;
+  outline: none;
+  padding: 15px 10px;
+  border-radius: 8px;
+  background-color: #eee;
+  width: 80%;
+}
+
+.btn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #1ac273;
+  width: 20%;
+  max-width: 40px;
+  height: 40px;
+  margin: auto;
+  color: white;
+  border-radius: 100px;
+  font-size: 40px;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.tareas {
+  width: 100%;
+  padding: 10px;
+}
+
+.tarea {
+  width: 100%;
+  background-color: #15c472;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 10px;
+  padding: 15px 10px;
+  border-radius: 8px;
+  color: white;
+}
+
+.select {
+  padding: 5px;
+  outline: none;
+  border: none;
+  text-align: center;
+  border-radius: 8px;
+}
+
+.botones {
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  gap: 20px;
+}
+
+.close {
+  width: 30px;
+  height: 30px;
+  font-size: 20px;
+  background-color: #2928284b;
+  text-align: center;
+}
+
+.borrar {
+  display: none;
+}
+
+@media screen and (max-width: 550px) {
+  .tarea {
+    flex-direction: column;
+    gap: 10px;
+  }
+}
