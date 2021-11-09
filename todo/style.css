@@ -117,11 +117,13 @@ input {
 }
 
 .close {
-  width: 30px;
-  height: 30px;
-  font-size: 20px;
+  width: 40px;
+  height: 40px;
+  font-size: 30px;
+  text-shadow: 0px 0px 5px white;
   background-color: #2928284b;
   text-align: center;
+  border: 2px solid #18171752;
 }
 
 .borrar {
