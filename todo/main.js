@@ -24,7 +24,7 @@ function mostrar() {
   let element = document.createElement("div");
   element.classList.add("tarea");
   element.innerHTML = `
-  <p>${allTodos[contador].tarea}</p>
+  <p class="tarea__text">${allTodos[contador].tarea}</p>
   <div class="botones">
   <select class="select" onchange="color()" >
     <option  value = "1">Prioridad</option>
@@ -74,22 +74,4 @@ function prueba() {
   });
 }
 
-/*
-let valor = document.getElementsByClassName("select");
-  if (valor[contador - 1].value == 1) {
-    document.getElementsByClassName("tarea")[contador - 1].style.background =
-      "red";
-    document.getElementsByClassName("tarea")[contador - 1].style.color =
-      "white";
-  } else if (valor[contador - 1].value == 2) {
-    document.getElementsByClassName("tarea")[contador - 1].style.background =
-      "yellow";
-    document.getElementsByClassName("tarea")[contador - 1].style.color =
-      "white";
-  } else if (valor[contador - 1].value == 3) {
-    document.getElementsByClassName("tarea")[contador - 1].style.background =
-      "green";
-    document.getElementsByClassName("tarea")[contador - 1].style.color =
-      "white";
-  }
- */
+
